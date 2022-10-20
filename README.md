@@ -4,6 +4,8 @@
 
 This board is a cartridge for the Tandy Radio Shack TRS-80 Color Computer (CoCo), an 8 bit computer produced between 1980 and 1991. It provides an interface that allows for a serial connection over a USB connection to a host computer (typically a modern PC).
 
+![Front View](images/cocousbserial-front.png?raw=true)
+
 ## Source and License
 
 Design maintained at https://github.com/barberd/cocousbserial

@@ -5,13 +5,13 @@
       "Application": "Pcbnew",
       "Version": "(6.0.7-1)-1"
     },
-    "CreationDate": "2022-10-20T14:57:48-04:00"
+    "CreationDate": "2022-10-20T16:04:38-04:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "6551usb",
       "GUID": "36353531-7573-4622-9e6b-696361645f70",
-      "Revision": "rev?"
+      "Revision": "1.0"
     },
     "Size": {
       "X": 98.652,
