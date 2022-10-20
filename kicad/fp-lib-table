@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "CoCo")(type "KiCad")(uri "${KIPRJMOD}/CoCo.pretty")(options "")(descr ""))
+)
