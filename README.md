@@ -28,11 +28,11 @@ The USB module used is the DLP-USB245R. [Here is its manufacturer's page](https:
 
 ## IO Address
 
-The 6 dip switches (SW1) sets the IO addresses for the board. These correspond to address lines A2 through A7. The four addresses used correspond to the board's (and the original 6551 chip's) four registers. Using the switches, one can configure the base address of the board to be any multiple of four within the range of FF00 through FFFF.
+The 6 dip switches (SW1) set the IO addresses for the board. These correspond to address lines A2 through A7. The four addresses used correspond to the board's (and the original 6551 chip's) four registers. Using the switches, one can configure the base address of the board to be any multiple of four within the range of FF00 through FFFF.
 
 The Deluxe RS-232 Pak uses IO addresses FF68-FF6B while the Direct Connect Modem Pak uses FF6C-FF6F. Markings on the board make it straightforward to set the IO address of the board to clone either; this is the easiest way to use the board as one can then leverage existing software.
 
-One may choose to use a different IO address range; this can be helpful if one has multiple paks that would otherwise conflict. If you use a non-standard range, software must be configured, patched, or updated to use the new IO address. Be mindful to review the CoCo's IO mapping and not choose an IO address used by another devices, such as a keyboard, joystick, cassette, or disk controller.
+One may choose to use a different IO address range; this can be helpful if one has multiple paks that would otherwise conflict. If you use a non-standard range, software must be configured, patched, or updated to use the new IO address. Be mindful to review the CoCo's IO mapping and not choose an IO address used by another device, such as a keyboard, joystick, cassette, or disk controller.
 
 
 ## ROM Socket
