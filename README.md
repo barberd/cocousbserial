@@ -45,6 +45,8 @@ The ROM socket is wired for a 27128 EPROM. As the 27128 provides 16k of storage,
 
 Please note that since the cartridge interrupt line is used for serial communications interrupts and not for the cartridge start interrupt, this cartridge does not auto-start. As such, one will need to start the ROM software manually with an "EXEC &HC000" or "EXEC 49152" statement, just as described in the [Deluxe RS-232 Pak](https://colorcomputerarchive.com/repo/Documents/Manuals/Hardware/Deluxe%20RS-232%20Operation%20Manual%20%28Tandy%29.pdf) and [Direct Connect Modem Pak](https://colorcomputerarchive.com/repo/Documents/Manuals/Hardware/Direct%20Connect%20Modem%20Pak%20%28Tandy%29.pdf) manuals.
 
+Note the Color Computer 3 maps the cartridge memory differently than the CoCo 1 and CoCo 2; use "EXEC 57360" or "EXEC &HE010" instead.
+
 ## Physical case
 
 The board is sized to fit into an original large CoCo pak, such as the Deluxe RS-232 Pak or a Disk Controller Pak. One can also 3D print a case such as [this  one found on thingiverse](https://www.thingiverse.com/thing:4829413).
