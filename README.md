@@ -8,7 +8,7 @@ This board is a cartridge for the Tandy Radio Shack TRS-80 Color Computer (CoCo)
 
 ## Source and License
 
-Design maintained at [https://github.com/barberd/cocousbserial](https://github.com/barberd/cocousbserial).
+Design maintained at [https://github.com/barberd/cocousbserial](https://github.com/barberd/cocousbserial). [Kicad](https://www.kicad.org/) and [Freerouting](https://github.com/freerouting/freerouting/) were used to design the board.
 
 The design is copyright 2022 by Don Barber. The design is open source, distributed via the GNU GPL version 3 license. Please see the COPYING file for details.
 
@@ -50,4 +50,8 @@ Note the Color Computer 3 maps the cartridge memory differently than the CoCo 1 
 ## Physical case
 
 The board is sized to fit into an original large CoCo pak, such as the Deluxe RS-232 Pak or a Disk Controller Pak. One can also 3D print a case such as [this  one found on thingiverse](https://www.thingiverse.com/thing:4829413).
+
+## How to order for fabrication
+
+Download 6551usb-fabrication.zip, then upload it to your PCB manufacturer of choice when asked to provide Gerber files. Usually this is found under a 'Quote' option on the website. Search "pcb manufacturing" on any major search engine to get several manufacturers.
 
