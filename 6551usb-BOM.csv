@@ -10,7 +10,7 @@
 "U3, ","1","74LS00","74LS00","Package_DIP:DIP-14_W7.62mm","quad 2-input NAND gate",""
 "U4, ","1","74LS682","74LS682","Package_DIP:DIP-20_W7.62mm","",""
 "U5, U6, ","2","74LS27","74LS27","Package_DIP:DIP-14_W7.62mm","Triple 3-input NOR",""
-"U7, ","1","74LS09","74LS08","Package_DIP:DIP-20_W7.62mm","Quad And2",""
+"U7, ","1","74LS08","74LS08","Package_DIP:DIP-14_W7.62mm","Quad And2",""
 "U9, ","1","27128","27128","Package_DIP:DIP-28_W15.24mm","UV Erasable EPROM 128 KiBit, [Obsolete 2000-11]",""
 "U10, ","1","74LS74","74LS74","Package_DIP:DIP-14_W7.62mm","Dual D Flip-flop, Set & Reset",""
 "U11, ","1","74LS86","74LS86","Package_DIP:DIP-14_W7.62mm","Quad 2-input XOR",""
