@@ -57,5 +57,5 @@ The board is sized to fit into an original large CoCo pak, such as the Deluxe RS
 
 Download 6551usb-fabrication.zip, then upload it to your PCB manufacturer of choice when asked to provide Gerber files. Usually this is found under a 'Quote' option on the website. Search "pcb manufacturing" on any major search engine to get several manufacturers.
 
-Some may have ordered boards and have extra available. Reach out don #&40; dgb3.net to explore this.
+Some may have ordered boards and have extra available. Reach out to don &#40; dgb3.net to explore this.
 
