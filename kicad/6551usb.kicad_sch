@@ -7,7 +7,7 @@
   (title_block
     (title "CoCo USB Serial")
     (date "2022-11-25")
-    (rev "1.04")
+    (rev "1.05")
   )
 
   (lib_symbols
