@@ -30,7 +30,7 @@ The USB module used is the DLP-USB245R. [Here is its manufacturer's page](https:
 
 ## IO Address
 
-The 6 dip switches (SW1) set the IO addresses for the board. These correspond to address lines A2 through A7. The four addresses used correspond to the board's (and the original 6551 chip's) four registers. Using the switches, one can configure the base address of the board to be any multiple of four within the range of FF00 through FFFB.
+The 6 dip switches (SW1) set the IO addresses for the board. These correspond to address lines A2 through A7. The four addresses used correspond to the board's (and the original 6551 chip's) four registers. Using the switches, one can configure the base address of the board to be any multiple of four within the range of FF00 through FFFC.
 
 The Deluxe RS-232 Pak uses IO addresses FF68-FF6B while the Direct Connect Modem Pak uses FF6C-FF6F. Markings on the board make it straightforward to set the IO address of the board to clone either; this is the easiest way to use the board as one can then leverage existing software.
 
