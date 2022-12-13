@@ -6,6 +6,8 @@ This board is a cartridge for the Tandy Radio Shack TRS-80 Color Computer (CoCo)
 
 ![Front View](images/cocousbserial-front.png?raw=true)
 
+Schematic is available [here](kicad/6551usb.pdf).
+
 ## Source and License
 
 Design maintained at [https://github.com/barberd/cocousbserial](https://github.com/barberd/cocousbserial). [Kicad](https://www.kicad.org/) and [Freerouting](https://github.com/freerouting/freerouting/) were used to design the board.
@@ -41,7 +43,7 @@ One may choose to use a different IO address range; this can be helpful if one h
 
 A socket for a ROM is also included in the board design. This is entirely optional, as most users today will instead choose to use a third-party communications software package loaded from another source such as disk, SDC, or DriveWire. However, one can add a ROM loaded with the Deluxe RS-232 Cartridge or Direct Connect Modem Cartridge software (or any other cartridge software) if one desires to replicate the original cartridge experience.
 
-The ROM socket is wired for a 27128 EPROM. As the 27128 provides 16k of storage, the board presents this as 2 different banks of 8k each, selected via jumper J1. As such, when writing the EPROM, combine the images with each image aligned to an 8k boundary (eg, at 0 and 8k). If using a ROM IC other than the 27128, one will need to adjust the board design to match the chosen IC.
+The ROM socket is wired for a 27128 EPROM. As the 27128 provides 16k of storage, the board presents this as 2 different banks of 8k each, selected via jumper J1. As such, when writing the EPROM, combine the images with each image aligned to an 8k boundary (eg, at 0 and 8k). If using a ROM IC other than the 27128, one will need to adjust the board design to match the chosen IC. Some other ROM ICs are pin-compatible and will work fine with the existing design.
 
 ### Starting the ROM software
 
