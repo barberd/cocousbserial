@@ -38,6 +38,9 @@ The Deluxe RS-232 Pak uses IO addresses FF68-FF6B while the Direct Connect Modem
 
 One may choose to use a different IO address range; this can be helpful if one has multiple paks that would otherwise conflict. If you use a non-standard range, software must be configured, patched, or updated to use the new IO address. Be mindful to review the CoCo's IO mapping and not choose an IO address used by another device, such as a keyboard, joystick, cassette, or disk controller.
 
+## Power Draw
+
+When hooked up to a bench power supply, the card drew 0.2 Amps.
 
 ## ROM Socket
 
