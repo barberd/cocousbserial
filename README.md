@@ -64,3 +64,8 @@ Download 6551usb-fabrication.zip, then upload it to your PCB manufacturer of cho
 
 Some may have ordered boards and have extra available. Reach out to don &#x40; dgb3.net to explore this.
 
+## Errata
+
+If you have version 1.04 or 1.05 of the board, there a 'bug' in the reset circuit for the change-in-plugged-in-status interrupt in that the interrupt is not cleared when the status register is read. I'm not aware of any software that actually enables this in the first place, so one will likely never encouter the bug. But the fix is simple: bend up pin 6 on U12, and solder it to pin 6 on U5 with a bodge wire. R4 is also no longer needed. This is fixed in 1.06.
+
+
