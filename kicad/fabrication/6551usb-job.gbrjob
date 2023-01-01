@@ -5,16 +5,16 @@
       "Application": "Pcbnew",
       "Version": "6.0.9-8da3e8f707~117~ubuntu20.04.1"
     },
-    "CreationDate": "2022-12-24T17:13:06-05:00"
+    "CreationDate": "2022-12-31T20:50:50-05:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "6551usb",
       "GUID": "36353531-7573-4622-9e6b-696361645f70",
-      "Revision": "1.07"
+      "Revision": "1.08"
     },
     "Size": {
-      "X": 98.652,
+      "X": 98.398,
       "Y": 150.887
     },
     "LayerNumber": 2,

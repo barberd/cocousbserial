@@ -1,5 +1,5 @@
 "Ref","Qnty","Value","Cmp name","Footprint","Description","Vendor"
-"C1, C2, C3, C4, C5, C6, C7, C8, C9, C10, C11, C12, C13, C14, C15, C16, C17, ","17","10 nF","C","Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal","Unpolarized capacitor",""
+"C1, C2, C3, C4, C5, C6, C7, C8, C9, C10, C11, C12, C13, C14, C15, C16, C17, ","17",".1 uF","C","Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal","Unpolarized capacitor",""
 "J1, ","1","Conn_01x03_Male","Conn_01x03_Male","Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical","Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)",""
 "P1, ","1","DLP-USB245R","DLP-USB245R","Package_DIP:DIP-18_W7.62mm_Socket","",""
 "R1, ","1","10k","R","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal","Resistor",""
