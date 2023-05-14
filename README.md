@@ -72,4 +72,4 @@ If you have version 1.04 or 1.05 of the board, there a 'bug' in the reset circui
 
 Boards prior to versions 1.08 were printed with 10nF capacitors, but .1uf (100nF) capacitors are bit more standard. Either work fine, they're just to smooth out ripples in the power to the ICs.
 
-Board version 1.09 added jumper J2 for the source of +5v power; see 'Power Draw' section above.
+Board version 1.09 added jumper J2 for the USB module's source of +5v power; see 'Power Draw' section above.
