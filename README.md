@@ -42,6 +42,8 @@ One may choose to use a different IO address range; this can be helpful if one h
 
 When hooked up to a bench power supply, the card drew 0.2 Amps.
 
+Board version 1.09 added a jumper for the source of +5v power for the DLP-USB245R module, either the CoCo or the USB host. The module draws 15mA of power in normal operation. One should choose the USB host if one wants the module recognized by the host as soon as its plugged in, or wants the USB device to remain configured on the host even when the CoCo is reset. One should choose the CoCo if one wants the device recognized only when the CoCo is powered on.
+
 ## ROM Socket
 
 A socket for a ROM is also included in the board design. This is entirely optional, as most users today will instead choose to use a third-party communications software package loaded from another source such as disk, SDC, or DriveWire. However, one can add a ROM loaded with the Deluxe RS-232 Cartridge or Direct Connect Modem Cartridge software (or any other cartridge software) if one desires to replicate the original cartridge experience.
@@ -70,4 +72,4 @@ If you have version 1.04 or 1.05 of the board, there a 'bug' in the reset circui
 
 Boards prior to versions 1.08 were printed with 10nF capacitors, but .1uf (100nF) capacitors are bit more standard. Either work fine, they're just to smooth out ripples in the power to the ICs.
 
-Board version 1.09 added a jumper for the source of +5v power for the USB module, either the CoCo or the USB host. One should choose the USB host if one wants the module recognized by the host as soon as its plugged in. One should choose the CoCo if one wants the device recognized only when the CoCo is powered on.
+Board version 1.09 added a jumper for the source of +5v power; see 'Power Draw' section above.
