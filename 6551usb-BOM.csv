@@ -13,9 +13,8 @@
 12;"U4";"DIP-20_W7.62mm";1;"74LS682";;;
 13;"U14";"DIP-20_W7.62mm";1;"74LS374";;;
 14;"U10";"DIP-14_W7.62mm";1;"74LS74";;;
-15;"J1";"PinHeader_1x03_P2.54mm_Vertical";1;"Conn_01x03_Male";;;
+15;"J1,J2";"PinHeader_1x03_P2.54mm_Vertical";1;"Conn_01x03_Male";;;
 16;"U6,U5";"DIP-14_W7.62mm";2;"74LS27";;;
 17;"U7";"DIP-14_W7.62mm";1;"74LS08";;;
 18;"U2";"DIP-14_W7.62mm";1;"74LS30";;;
-19;"JP1";"PinHeader_1x03_P2.54mm_Vertical";1;"Module Power";;;
 20;"P1";"DIP-18_W7.62mm_Socket";1;"DLP-USB245R";;;
