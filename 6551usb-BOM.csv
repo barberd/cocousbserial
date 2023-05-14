@@ -1,20 +1,21 @@
-"Ref","Qnty","Value","Cmp name","Footprint","Description","Vendor"
-"C1, C2, C3, C4, C5, C6, C7, C8, C9, C10, C11, C12, C13, C14, C15, C16, C17, ","17",".1 uF","C","Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal","Unpolarized capacitor",""
-"J1, ","1","Conn_01x03_Male","Conn_01x03_Male","Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical","Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)",""
-"P1, ","1","DLP-USB245R","DLP-USB245R","Package_DIP:DIP-18_W7.62mm_Socket","",""
-"R1, ","1","10k","R","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal","Resistor",""
-"R2, R3, ","2","4.7k","R","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal","Resistor",""
-"SW1, ","1","SW_DIP_x06","SW_DIP_x06","Button_Switch_THT:SW_DIP_SPSTx06_Slide_9.78x17.42mm_W7.62mm_P2.54mm","6x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol",""
-"U1, U8, ","2","74LS04","74LS04","Package_DIP:DIP-14_W7.62mm","Hex Inverter",""
-"U2, ","1","74LS30","74LS30","Package_DIP:DIP-14_W7.62mm","8-input NAND",""
-"U3, ","1","74LS00","74LS00","Package_DIP:DIP-14_W7.62mm","quad 2-input NAND gate",""
-"U4, ","1","74LS682","74LS682","Package_DIP:DIP-20_W7.62mm","",""
-"U5, U6, ","2","74LS27","74LS27","Package_DIP:DIP-14_W7.62mm","Triple 3-input NOR",""
-"U7, ","1","74LS08","74LS08","Package_DIP:DIP-14_W7.62mm","Quad And2",""
-"U9, ","1","27128","27128","Package_DIP:DIP-28_W15.24mm","UV Erasable EPROM 128 KiBit, [Obsolete 2000-11]",""
-"U10, ","1","74LS74","74LS74","Package_DIP:DIP-14_W7.62mm","Dual D Flip-flop, Set & Reset",""
-"U11, ","1","74LS86","74LS86","Package_DIP:DIP-14_W7.62mm","Quad 2-input XOR",""
-"U12, ","1","74LS33","74LS33","Package_DIP:DIP-14_W7.62mm","Quad 2-input NOR, Open collector",""
-"U13, ","1","74LS273","74LS273","Package_DIP:DIP-20_W7.62mm","8-bit D Flip-Flop, reset",""
-"U14, ","1","74LS374","74LS374","Package_DIP:DIP-20_W7.62mm","8-bit Register, 3-state outputs",""
-"U15, U16, ","2","74LS244","74LS244","Package_DIP:DIP-20_W7.62mm","Octal Buffer and Line Driver With 3-State Output, active-low enables, non-inverting outputs",""
+"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
+1;"C15,C14,C3,C7,C8,C1,C9,C2,C12,C13,C5,C6,C17,C10,C4,C16,C11";"C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal";17;".1 uF";;;
+2;"U13";"DIP-20_W7.62mm";1;"74LS273";;;
+3;"U11";"DIP-14_W7.62mm";1;"74LS86";;;
+4;"U9";"DIP-28_W15.24mm";1;"27128";;;
+5;"U16,U15";"DIP-20_W7.62mm";2;"74LS244";;;
+6;"U1,U8";"DIP-14_W7.62mm";2;"74LS04";;;
+7;"SW1";"SW_DIP_SPSTx06_Slide_9.78x17.42mm_W7.62mm_P2.54mm";1;"SW_DIP_x06";;;
+8;"R1";"R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal";1;"10k";;;
+9;"U12";"DIP-14_W7.62mm";1;"74LS33";;;
+10;"U3";"DIP-14_W7.62mm";1;"74LS00";;;
+11;"R3,R2";"R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal";2;"4.7k";;;
+12;"U4";"DIP-20_W7.62mm";1;"74LS682";;;
+13;"U14";"DIP-20_W7.62mm";1;"74LS374";;;
+14;"U10";"DIP-14_W7.62mm";1;"74LS74";;;
+15;"J1";"PinHeader_1x03_P2.54mm_Vertical";1;"Conn_01x03_Male";;;
+16;"U6,U5";"DIP-14_W7.62mm";2;"74LS27";;;
+17;"U7";"DIP-14_W7.62mm";1;"74LS08";;;
+18;"U2";"DIP-14_W7.62mm";1;"74LS30";;;
+19;"JP1";"PinHeader_1x03_P2.54mm_Vertical";1;"Module Power";;;
+20;"P1";"DIP-18_W7.62mm_Socket";1;"DLP-USB245R";;;

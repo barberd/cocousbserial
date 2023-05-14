@@ -12,7 +12,7 @@ Schematic is available [here](kicad/6551usb.pdf).
 
 Design maintained at [https://github.com/barberd/cocousbserial](https://github.com/barberd/cocousbserial). [Kicad](https://www.kicad.org/) and [Freerouting](https://github.com/freerouting/freerouting/) were used to design the board.
 
-The design is copyright 2022 by Don Barber. The design is open source, distributed via the GNU GPL version 3 license. Please see the COPYING file for details.
+The design is copyright 2023 by Don Barber. The design is open source, distributed via the GNU GPL version 3 license. Please see the COPYING file for details.
 
 ## Interface
 
@@ -70,3 +70,4 @@ If you have version 1.04 or 1.05 of the board, there a 'bug' in the reset circui
 
 Boards prior to versions 1.08 were printed with 10nF capacitors, but .1uf (100nF) capacitors are bit more standard. Either work fine, they're just to smooth out ripples in the power to the ICs.
 
+Board version 1.09 added a jumper for the source of +5v power for the USB module, either the CoCo or the USB host. One should choose the USB host if one wants the module recognized by the host as soon as its plugged in. One should choose the CoCo if one wants the device recognized only when the CoCo is powered on.
