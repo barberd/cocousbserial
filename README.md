@@ -42,7 +42,7 @@ One may choose to use a different IO address range; this can be helpful if one h
 
 When hooked up to a bench power supply, the card drew 0.2 Amps.
 
-Board version 1.09 added jumper J2 for the source of +5v power for the DLP-USB245R module, either the CoCo or the USB host. The module draws 15mA of power in normal operation. One should choose the USB host if one wants the module recognized by the host as soon as its plugged in, or wants the USB device to remain configured on the host even when the CoCo is reset. One should choose the CoCo if one wants the device recognized only when the CoCo is powered on.
+Board version 1.09 added jumper J2 for the source of +5v power for the DLP-USB245R module, either the CoCo or the USB host. The module draws 15mA of power in normal operation. One should choose the USB host if one wants the module recognized by the host as soon as its plugged in, or wants the USB device to remain configured on the host even when the CoCo is power-cycled. One should choose the CoCo if one wants the device recognized only when the CoCo is powered on.
 
 ## ROM Socket
 
